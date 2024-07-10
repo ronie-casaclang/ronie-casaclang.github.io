@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" id="icon">
     <link rel="stylesheet" href="../style/work.css">
     <link rel="stylesheet" href="../style/menu.css">
     <link rel="stylesheet" href="../style/header.css">
@@ -28,11 +29,19 @@
             <div class="div-search">
                 <input type="search" name="" id="txtSearch" placeholder="Search...">
                 <div class="search-type">
-                    <img src="../img/icons/search_ux.png" alt="">
-                    <img src="../img/icons/search_web.png" alt="">
-                    <img src="../img/icons/search_system.png" alt="">
-                    <img src="../img/icons/search_mobile.png" alt="">
+                    <img src="../img/icons/search_ux.png" title="UI/UX Design">
+                    <img src="../img/icons/search_web.png" title="Web Development">
+                    <img src="../img/icons/search_system.png" title="Systems Development">
+                    <img src="../img/icons/windows_os.png" title="Windows Application">
+                    <img src="../img/icons/android_os.png" title="Mobile Application">
                 </div>
+                <select name="" id="category">
+                    <option value=""> UI/UX </option>
+                    <option value=""> Website </option>
+                    <option value=""> Systems </option>
+                    <option value=""> Windows </option>
+                    <option value=""> Mobile </option>
+                </select>
             </div>
             <div class="div-works">
                 <div class="div-project">
@@ -177,6 +186,7 @@
     <script src="../script/link.js"></script>
     <script src="../script/menu.js"></script>
     <script src="../script/scroll.js"></script>
+    <script src="../script/root.js"></script>
     <script>
         document.querySelector("#close").addEventListener("click", function(){
             document.querySelector(".div-popup").style.display = "none";

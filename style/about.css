@@ -1,6 +1,6 @@
 section{
     width: 100%;
-    padding: 0px 20px;
+    padding: 0px 15px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -48,6 +48,7 @@ section > .container {
     box-sizing: border-box;
     border-radius: 50%;
     border-radius: 5px;
+    display: none;
 }
 .icon-send:hover{ background-color: white; }
 .icon-send:active{ opacity: 50%; }
@@ -152,8 +153,8 @@ section > .container {
     row-gap: 10px;
 }
 .services-container > .service{
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     box-sizing: border-box;
     border: 1px solid;
     display: flex;
@@ -164,7 +165,7 @@ section > .container {
     cursor:text;
 }
 .services-container img{
-    width: 65px;
+    width: 60px;
     box-sizing: border-box;
 }
 .services-container p{

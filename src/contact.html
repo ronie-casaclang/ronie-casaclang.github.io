@@ -3,9 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" id="icon">
     <title>Contact</title>
+    <link rel="stylesheet" href="../style/contact.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/menu.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="../style/root.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <p>Ronie Casaclang</p>
+            <ul>
+                <li><a id="nav-work">Work</a></li>
+                <li><a id="nav-about">About</a></li>
+                <li><a id="nav-contact" style="color: var(--primary); font-weight: 500;">Contact</a></li>
+            </ul>
+            <img src="../img/icons/menu.png" alt="menu" id="btn-menu">
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="div-introduction">
+                <div class="div-texts">
+                    <h1> Get in Touch </h1>
+                    <h3> Available for questions, collaborations, services, projects, and coffee. 🍵 </h3>
+                    <div class="line"> </div>
+                    <div class="div-info">
+                        <div>
+                            <img src="../img/icons/location.png">
+                            <a id="location" href="https://maps.app.goo.gl/ZpqbXFzTk8K4Lt3a6"> Sual, Pangasinan 2403 </a>
+                        </div>
+                        <div>
+                            <img src="../img/icons/telephone.png">
+                            <a> 0928-222-5525 </a>
+                        </div>
+                        <div>
+                            <img src="../img/icons/letter.png">
+                            <a id="gmail" href="mailto:casaclangronie05@gmail.com"> casaclangronie05@gmail.com </a>
+                        </div>
+                        <div class="div-connect">
+                            <span>
+                                Connect with 
+                                <a id="con-facebook">Facebook</a> |
+                                <a id="con-linkedin">LinkedIn</a> |
+                                <a id="con-github">Github</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-qr-code">
+                    <p> Click or Scan QR Code </p>
+                    <img src="../img/pictures/qr_messenger.png" alt="QR Code"class="icon-qr-code">
+                    <div>
+                        <img src="../img/icons/messenger.png" title="messenger">
+                        <img src="../img/icons/telegram.png" title="telegram" class="qr-active">
+                    </div>
+                </div>
+            </div>
+            <iframe class="div-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.991674133446!2d120.0929987757601!3d16.06592183952524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3393e0914d468e63%3A0x18c606440f203af4!2sSual%20Municipal%20Hall!5e0!3m2!1sen!2sph!4v1720612312632!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <p> © Ronie Casaclang | <a href="mailto:casaclangronie05@gmail.com">casaclangronie05@gmail.com</a> </p>
+            <div>
+                <a id="facebook"> <img src="../img/icons/fb_50px.png" alt="facebook" title="Facebook"> </a>
+                <a id="linkedin"> <img src="../img/icons/in_50px.png" alt="linkedin" title="LinkedIn"> </a>
+                <a id="github"> <img src="../img/icons/git_50px.png" alt="github" title="Github"> </a>
+            </div>
+        </nav>
+    </footer>
+
+    <!-- Pop ups-->
+    <div class="div-menu">
+        <ul>
+            <li> <a id="menu-work"> Work </a></li>
+            <li> <a id="menu-about">About</a></li>
+            <li> <a id="menu-contact">Contact</a></li>
+        </ul>
+    </div>
+    <script src="../script/scroll.js"></script>
+    <script src="../script/menu.js"></script>
+    <script src="../script/link.js"></script>
+    <script src="../script/root.js"></script>
 </body>
 </html>

@@ -1,8 +1,13 @@
 .div-menu{
     width: 100%;
     height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
     background-color: grey;
-    opacity: 90%;
+    background-color: #F5F5DC;
+    background-color: #f5f5dce9;
+    background-color: var(--primary);
+    opacity: 100%;
     position: fixed;
     top: 0%;
     left: 0%;
@@ -16,6 +21,8 @@
 .div-menu > ul {
     list-style: none;
     display: flex;
+    padding: 0;
+    box-sizing: border-box;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -27,8 +34,8 @@
 }
 .div-menu a {
     text-decoration: none;
-    color: white;
-}
-.div-menu a:hover {
     color: var(--primary);
+    color: #F5F5DC;
 }
+.div-menu a:hover {opacity: 60%; }
+.div-menu a:active { color: teal; }

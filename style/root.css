@@ -10,5 +10,6 @@ html, body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    outline: none;
 }
 /*body{ overflow: hidden; }*/
