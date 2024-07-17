@@ -1,11 +1,13 @@
 
 // navigate pages
-document.getElementById('nav-work').href = "../src/work.html";
+//document.getElementById('nav-work').href = "../src/work.html";
+document.getElementById('nav-work').href = "../src/projects.html";
 document.getElementById('nav-about').href = "../src/about.html";
 document.getElementById('nav-contact').href = "../src/contact.html";
 
 // menus
-document.getElementById('menu-work').href = "../src/work.html";
+//document.getElementById('menu-work').href = "../src/work.html";
+document.getElementById('menu-work').href = "../src/projects.html";
 document.getElementById('menu-about').href = "../src/about.html";
 document.getElementById('menu-contact').href = "../src/contact.html";
 
